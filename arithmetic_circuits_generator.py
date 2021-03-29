@@ -4,6 +4,7 @@ from one_bit_circuits import constant_wire_value_1, constant_wire_value_0, half_
 from multi_bit_circuits import unsigned_ripple_carry_adder, signed_ripple_carry_adder, unsigned_pg_ripple_carry_adder, signed_pg_ripple_carry_adder, unsigned_array_multiplier, signed_array_multiplier, unsigned_dadda_multiplier, signed_dadda_multiplier, unsigned_wallace_multiplier, signed_wallace_multiplier, unsigned_carry_lookahead_adder, signed_carry_lookahead_adder
 import sys
 
+print("name", __name__)
 
 """ TESTING """
 if __name__ == "__main__":
