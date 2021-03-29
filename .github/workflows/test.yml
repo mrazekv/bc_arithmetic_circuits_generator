@@ -30,6 +30,10 @@ jobs:
       run: python -c "import sys; print(sys.version)"
     - name: Run generating
       run: python arithmetic_circuits_generator.py
+    - name: Listing
+      run: ls build
+    - name: Listing2
+      run: ls 
 
     - name: Upload results
       uses: actions/upload-artifact@v1.0.0
