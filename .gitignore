@@ -1,0 +1,7 @@
+__pycache__/
+.vscode
+test.py
+Makefile
+*.c
+*.v
+t.py
